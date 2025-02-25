@@ -9,13 +9,13 @@
   "name": "MultiCursor",
   "content_scripts": [
     {
-      "matches": [""],
+      "matches": ["https://www.prologistics.info/shop_content.php?id=13256&shop_id=29"],
       "js": ["./content/multicursor/index.js"]
     }
   ],
   "author": {
-    "email": ""
+    "email": "demczenko@beliani.co.uk"
   },
   "permissions": [],
-  "host_permissions": [""]
+  "host_permissions": ["https://www.prologistics.info/*"]
 }
